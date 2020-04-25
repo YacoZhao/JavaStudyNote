@@ -162,7 +162,7 @@ public class Class3_Code3_RedBlackTree extends Class3_Code3_AbstractSelfBalancin
 
 
     //++++++++++++++++++++++++++++++++++++private方法区： 内部调用+++++++++++++++++++++++++++++++++++++++++++++
-    // 插入后的带调整工作（黑盒）
+    // 插入后的调整工作（黑盒）
     private void insertRBFixup(RedBlackNode currentNode) {
         // current node is always RED, so if its parent is red it breaks
         // Red-Black property, otherwise no fixup needed and loop can terminate
